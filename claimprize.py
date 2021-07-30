@@ -16,6 +16,7 @@ def claim_prize_screen(prize_amount, currency_label, current_user):
     claim.config(bg="white")
     claim.title("Claim Prize")
 
+
     # submit function
     def submit():
         try:
@@ -135,3 +136,4 @@ def claim_prize_screen(prize_amount, currency_label, current_user):
 
 if __name__ == '__main__':
     claim_prize_screen("", "", "")
+
