@@ -13,7 +13,6 @@ from claimprize import claim_prize_screen
 prize_amount = ""
 currency_label = ""
 
-
 # Function that holds all the styles and functions of this screen
 # parameter of current user, got from login screen
 def create_lotto_screen(current_user):
